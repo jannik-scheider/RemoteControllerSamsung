@@ -9,7 +9,7 @@ import Foundation
 import Alamofire
 
 class SmartThingsAPI {
-    let apiKey = "d0eefc64-7dab-4cc8-8dad-e594b4061425"
+    let apiKey = "your api key"
 
     func getDevices(completion: @escaping ([Device]) -> Void) {
         let url = "https://api.smartthings.com/v1/devices"
